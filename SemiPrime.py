@@ -1,3 +1,4 @@
+#Expressing an Integer sum of two semi prime numbers
 def prime(n):
     cnt=0
     for i in range(2,n//2+1):
@@ -39,7 +40,6 @@ for i in range(4,100):
                 k=k-1
             else:
                 k=k-1
-print(spn)
 n=int(input("enter n:"))
 if(spn.count(n)==1):
     print("Yes",end="")
